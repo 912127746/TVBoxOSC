@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://cdn.jsdelivr.net/gh/912127746/cdn@master/%E7%94%B5%E8%A7%86/cs.txt");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://912127746.github.io/xbhTV.github.io/cs.txt");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
